@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Dark theme background color */
+  color: #ffffff; /* Dark theme text color */
+}
+
+/* Header styles */
+header {
+  background-color: #111111; /* Dark theme header color */
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Navigation styles */
+.top-navbar {
+  background-color: #222222; /* Dark theme navigation color */
+  padding: 1rem 2rem; /* Increase the horizontal padding */
+}
+
+.top-navbar .navbar-brand {
+  color: #ffffff; /* Dark theme text color for "News App" */
+}
+
+.top-navbar .nav-links li a {
+  padding: 0.5rem; /* Add padding to navbar elements */
+  color: #ffffff; /* Dark theme link text color for news categories */
+}
+
+.top-navbar .nav-links li a:hover,
+.top-navbar .nav-links li .active-link {
+  color: #bbbbbb; /* Lighter color on hover and for active link */
+}
+
+/* Content styles */
+.content {
+  padding: 2rem;
+  background-color: #3e3e3e; /* Dark theme content color */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* News link styles */
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  margin-bottom: 15px;
+}
+
+.news-list li a {
+  display: block;
+  padding: 15px;
+  background-color: #2f2f2f; /* Dark theme link background color */
+  color: #ffffff; /* Dark theme link text color for news articles */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.news-list li a:hover {
+  background-color: #3f3f3f; /* Dark theme link hover background color */
+  color: #bbbbbb; /* Lighter color on hover for news articles */
+}
+
+.news-content {
+  padding: 2rem;
+  background-color: #000000; /* Dark theme content color */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
